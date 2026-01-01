@@ -1,0 +1,11 @@
+# A trigger that looks for "2025" (It's New Year's Eve 2025!)
+t1,DESCRIPTION,2025
+
+# A trigger that looks for "World" (Always in the news)
+t2,TITLE,world
+
+# A trigger that looks for "Year"
+t3,DESCRIPTION,year
+
+# Add them all
+ADD,t1,t2,t3
